@@ -1,6 +1,6 @@
 {
   "version": "1.9.2",
-  "date": 1632609764200,
+  "date": 1632614207000,
   "preferences": {
     "automaticMode": {
       "active": true,
@@ -10,7 +10,7 @@
     "container": {
       "namePrefix": "",
       "color": "toolbar",
-      "colorRandom": false,
+      "colorRandom": true,
       "colorRandomExcluded": [],
       "icon": "circle",
       "iconRandom": false,
