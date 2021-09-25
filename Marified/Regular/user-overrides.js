@@ -107,4 +107,5 @@ user_pref("browser.messaging-system.whatsNewPanel.enabled", false); // What's Ne
 // MAR UNCOMMENTED the line below AND changed FROM false TO true
    user_pref("reader.parse-on-load.enabled", true); // Reader View
 user_pref("_mar.Ux.js.parrot", "MAR OVERRIDES Ux FINISHED");
-user_pref("_mar.js.parrot", "MAR OVERRIDES STARTED");
+
+user_pref("_mar.js.parrot", "MAR OVERRIDES FINISHED");
