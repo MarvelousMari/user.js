@@ -1,0 +1,13 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>QwantLiteM</ShortName>
+  <Description>Qwant Lite En US Dark</Description>
+  <Url type="text/html" method="get" template="https://lite.qwant.com/?q={searchTerms}&amp;l=en&amp;locale=en_us&amp;s=0&amp;theme=1&amp;b=1&amp;client=opensearch"/>
+  <Url type="application/x-suggestions+json" template="https://api.qwant.com/lite/suggest/?q={searchTerms}&amp;client=opensearch"/>
+  
+  <Image height="16" width="16" type="image/x-icon">https://lite.qwant.com/favicon.ico</Image>
+  <Image height="48" width="48" type="image/x-icon">https://lite.qwant.com/favicon.ico</Image>
+  <Developer>Anon</Developer>
+  <InputEncoding>UTF-8</InputEncoding>
+  <moz:SearchForm>https://lite.qwant.com/?l=en&amp;locale=en_us&amp;s=0&amp;theme=1&amp;b=1</moz:SearchForm>
+</OpenSearchDescription>

@@ -1,0 +1,16 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>"QwL"</ShortName>
+  <Description>"Qwant Lite with Dark Mode, English, and US set"</Description>
+  <InputEncoding>[UTF-8]</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">[https://lite.qwant.com/images/letter-colored.png]</Image>
+  <Url type="text/html" template="[searchURL]">
+    <Param name="[key name]" value="{searchTerms}"/>
+    <!-- other Params if you need them… -->
+    <Param name="[other key name]" value="[parameter value]"/>
+  </Url>
+  <Url type="application/x-suggestions+json" template="[suggestionURL]"/>
+  <moz:SearchForm>[https://example.com/search]</moz:SearchForm>
+</OpenSearchDescription>
+
+https://lite.qwant.com/?q={searchTerms}&|=en&locale=en_us&s=0&theme=1&b=1
