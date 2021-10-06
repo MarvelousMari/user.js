@@ -1,0 +1,44 @@
+Standard setting changes
+
+Default Search Engine
+To add by url use this guide
+https://support.mozilla.org/en-US/questions/1279094
+Adding Seach PLUGINS doesn't allow for searching in dark ENGLISH mode
+Get OpenSearch File with
+curl https://lite.qwant.com/opensearch.xml > qwant_lite.xml
+curl https://www.qwant.com/opensearch.xml > qwant.xml
+Modify .xml
+about:config devtools.chrome.enabled TRUE
+open .xml in firefox
+
+https://lite.qwant.com/?l=en&locale=en_us&s=0&theme=1&b=1
+https://lite.qwant.com/?&l=en&locale=en_us&s=0&theme=1&b=1
+
+Search URL
+https://lite.qwant.com/?q={searchTerms}&l=en&locale=en_us&s=0&theme=1&b=1&client=opensearch
+Suggestions
+application/x-suggestions+json https://api.qwant.com/lite/suggest/?q={searchTerms}&amp;client=opensearch
+https://api.qwant.com/lite/suggest/?q={searchTerms}&client=opensearch
+ICON
+https://lite.qwant.com/favicon.ico
+
+
+	Add MetaGear
+		anonymos mode for private searches
+	Add SwissCow
+		ads and child filters
+		NO data is stored
+		
+curl https://lite.qwant.com/opensearch.xml > qwant_lite.xml
+curl https://www.qwant.com/opensearch.xml > qwant.xml
+
+
+Add plugins
+https://addons.mozilla.org/en-US/firefox/addon/skip-redirect/
+https://addons.mozilla.org/en-US/firefox/addon/clearurls/
+
+https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/
+	IMPORT SETTINGS
+https://addons.mozilla.org/en-US/firefox/addon/temporary-containers/
+	IMPORT SETTINGS
+

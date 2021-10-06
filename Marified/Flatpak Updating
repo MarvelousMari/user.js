@@ -1,0 +1,9 @@
+change and update firefox version
+
+show commit history of flatpak
+flatpak remote-info --log flathub org.mozilla.firefox
+
+Then update to the commit you want
+flatpak update --commit=8729eb0d73ae187b98cbf5ffb381dc25b6d7719f159a286a671b2ec387b60312 org.mozilla.firefox
+
+FIREFOX SHOULD BE MASKED FROM AUTO UPDATES
